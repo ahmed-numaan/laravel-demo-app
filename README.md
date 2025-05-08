@@ -8,7 +8,7 @@ This project was bootstrapped with [Laravel repository on GitHub](https://github
 
 docker run -dp 8000:80 --name laravel-demo-app-container anumaan/laravel-demo-app-image
 
-### 2. List running containers:
+### 2. Run app in browser:
 
 Open [http://localhost:8000/](http://localhost:8000/) in browser to see running app.
 
