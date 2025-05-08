@@ -10,19 +10,23 @@ docker run -dp 8000:80 --name laravel-demo-app-container anumaan/laravel-demo-ap
 
 ### 2. List running containers:
 
+Open [http://localhost:8000/](http://localhost:8000/) in browser to see running app.
+
+### 3. List running containers:
+
 docker ps
 
 Copy ID of running container.
 
-### 3. Stop container instance:
+### 4. Stop container instance:
 
 docker stop [container_id]
 
-### 4. Delete container locally:
+### 5. Delete container locally:
 
 docker container rm anumaan/laravel-demo-app-image
 
-### 5. Delete image locally:
+### 6. Delete image locally:
 
 docker image rm anumaan/laravel-demo-app-image
 
